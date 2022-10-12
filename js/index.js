@@ -1,7 +1,7 @@
 "use strict"
 
-const ipUrl = 'https://api.ipify.org/?format=json';
-const userUrl = 'https://ip-api.com/json/';
+const ipUrl = 'HTTPS://api.ipify.org/?format=json';
+const userUrl = 'HTTPS://ip-api.com/json/';
 const btn = document.querySelector('.btnSearch');
 const root = document.querySelector('.search-ip');
 btn.addEventListener('click', (e) => {
