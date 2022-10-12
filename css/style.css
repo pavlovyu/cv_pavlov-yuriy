@@ -9,7 +9,7 @@ body {
     margin: 0;
 }
 .search-ip__text {
-    margin: 20px auto 50px auto;
+    margin: 20px auto 30px auto;
     text-align: center;
 }
 .search-ip {
@@ -510,7 +510,7 @@ background-color: rgba(24, 207, 171, 1)
     grid-auto-flow: row;
     gap: 35px 35px;
     list-style-type: none;
-    padding: 0 0 128px 0;
+    padding: 0 0 18px 0;
     margin: 0;
 }
 .news-blog-item {
@@ -581,94 +581,7 @@ background-color: rgba(24, 207, 171, 1)
     left: 101px;
 }
 
-
-/*     About-us    */
-
-.about-us {
-    background-image: url(../image/about-us/333.png);
-    background-size: cover;
-}
-.section-title.about-us {
-    padding-top: 83px;
-    margin-top: 27px;
-    color: rgba(255, 255, 255, 1);
-}
-.about-us-img-decor {
-    margin-left: 47.5%;
-}
-.about-us-slider {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.about-us-text {
-    color: rgba(187, 187, 187, 1);
-    font-size: 16px;
-    margin: 36px 0 36px 0;
-    font-weight: 300;
-}
-.about-us-name {
-    color: rgba(24, 207, 171, 1);
-    font-size: 21px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 0 0 15px 0 ;
-}
-.about-us-speciality {
-    font-size: 14px;
-    font-weight: 300;
-    padding-bottom: 38px;
-    margin: 0;
-    color: rgba(187, 187, 187, 1);
-
-}
-.slider-photo {
-    border: 11px solid rgba(31, 218, 181, 0.2);
-    border-radius: 50%;
-    margin-bottom: 69px;
-    padding: 0;
-    margin: 0;
-}
-.about-us-special-list {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    align-items: center;
-    padding: 0;
-    margin-top: 51px;
-    padding-bottom: 104px;
-}
-.about-us-special-item {
-    margin: 0 15px;
-}
-.about-us-special-item.decor {
-    position: relative;
-}
-.about-us-special-item.decor:hover .slider-photo-decor {
-    background-color: rgba(24, 207, 171, 1);
-}
-.about-us-special-item.decor:hover .slider-photo-decor-arrow-right {
-    background-color:#ffffff;
-}
-.about-us-special-item.decor:hover .slider-photo-decor-arrow-left {
-    background-color:#ffffff;
-}
-.slider-photo-decor {
-    cursor: pointer;
-}
-.slider-photo-decor-arrow-left {
-    position: absolute;
-    top: 9.5px;
-    right: 13px;
-}
-.slider-photo-decor-arrow-right {
-    position: absolute;
-    top: 9.5px;
-    right: 12px;
-    transform: scale(-1, 1);
-}
-
-.copyright{
+.copyright {
     background-color: #22353F;
 }
 

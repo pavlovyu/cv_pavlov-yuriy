@@ -1,17 +1,27 @@
 "use strict"
 
-const ipUrl = 'HTTPS://api.ipify.org/?format=json';
-const userUrl = 'HTTPS://ip-api.com/json/';
+const ipUrl = 'https://api.ipify.org/?format=json';
+const userUrl = 'http://ip-api.com/json/';
 const btn = document.querySelector('.btnSearch');
 const root = document.querySelector('.search-ip');
 btn.addEventListener('click', (e) => {
    async function getIp() {
-       const responseIp = await fetch(ipUrl)
+       const responseIp = await fetch(ipUrl, {
+            method: "GET",
+            headers: {
+            "Content-Type": "application/json",
+            }
+        })
        .then((request) => {
            return request.json()
        })
            .then((request) => {
-                   fetch(userUrl + request.ip)
+                   fetch(userUrl + request.ip, {
+                    method: "GET",
+                    headers: {
+                    "Content-Type": "application/json",
+                    }
+                })
                        .then((data) => {
                            return data.json();
                        })
